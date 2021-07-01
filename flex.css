@@ -1,0 +1,27 @@
+img{
+    width:200px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    background-color: grey;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+#amazon{
+    order: 1;
+    align-self: flex-start;
+}
+#beats{
+    order: 4;
+}
+#adidas{
+
+    order: 2;
+}
+#apple{
+
+    order: 3;
+}
